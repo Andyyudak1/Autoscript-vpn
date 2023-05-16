@@ -1,20 +1,19 @@
-# Autoscript-vpn
 
-
-## for os ubuntu 18.04 20.04 & debian 10 dan 11
-
-
-
-
-## Tested only on Ubuntu 20.04<br>
-  
-  ```html
+# SC By ANDYYUDA KLMPK ( ENGLISH )
+```
+* DNS-KLMPKSCRIPT
+```
+![logo](https://raw.githubusercontent.com/Andyyudak1/Autoscript-vpn/main/sc.jpg
+)
+## Step 1 update your vps frist
+```
  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
  ```
 ## Installation Link<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/Pakhaji30/Autoscript-vpn/main/setupku.sh && chmod +x setupku.sh && ./setupku.sh
+
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/Andyyudak1/Autoscript-vpn/main/setupku.sh && chmod +x setupku.sh && ./setupku.sh
   ```
 ## Fitur:
 <br>
@@ -25,3 +24,4 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ✅ XRAY TROJAN TCP XTLS 443<br>
 ✅ XRAY TROJAN TCP TLS 443<br>
 <br>
+Order script: wa 082131861788
