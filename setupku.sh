@@ -57,7 +57,7 @@ CEKEXPIRED () {
         exit 0
 fi
 }
-IZIN=$(curl -sS https://raw.githubusercontent.com/Andyyudak1/Autoscript-vpn/main/izin | awk '{print $4}' | grep $MYIP)
+IZIN=$(curl -sS https://raw.githubusercontent.com/Andyvpn/Autoscript-vpn/main/izin | awk '{print $4}' | grep $MYIP)
 if [ $MYIP = $IZIN ]; then
 echo "IZIN DI TERIMA!!"
 CEKEXPIRED
@@ -126,7 +126,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 2
 wget -q -O ins-xray.sh https://raw.githubusercontent.com/Andyvpn/Autoscript-by-azi/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 sleep 1
-wget -q -O senmenu.sh https://raw.githubusercontent.com/Andyyudak1/Autoscript-vpn/main/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
+wget -q -O senmenu.sh https://raw.githubusercontent.com/Andyvpn/Autoscript-vpn/main/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install slowdns              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
